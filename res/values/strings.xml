@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CGUFollowMe</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="placeholder">placeholder</string>
+    <string name="empty">empty</string>
+
+    <string-array name="path0">
+        <item>1. 侯車亭→管理學院 </item>
+        <item>2. 管理學院1F→管理學院5F </item>
+        <item>3. 管理學院5F→資訊管理學系系辦 </item>
+    </string-array>
+    <string-array name="path1">
+        <item>1. 第一醫學大樓1F→管理學院 </item>
+        <item>2. 管理學院1F→管理學院5F </item>
+        <item>3. 管理學院5F→資訊管理學系系辦 </item>
+    </string-array>
+    <string-array name="nopath">
+        <item>1. 無路線 </item>
+    </string-array>
+    <string-array name="medical">
+        <item>醫學系</item>
+        <item>護理學系</item>
+        <item>醫學生物技術暨檢驗學系</item>
+        <item>物理治療學系</item>
+        <item>職能治療學系</item>
+        <item>中醫學系</item>
+        <item>呼吸治療學系</item>
+        <item>生物醫學系</item>
+        <item>醫學影像暨放射科學系</item>
+    </string-array>
+    <string-array name="engineer">
+        <item>電機工程學系</item>
+        <item>機械工程學系</item>
+        <item>化工與材料工程學系</item>
+        <item>電子工程學系</item>
+        <item>資訊工程學系</item>
+    </string-array>
+    <string-array name="management">
+        <item>工商管理學系</item>
+        <item>工業設計學系</item>
+        <item>資訊管理學系</item>
+        <item>醫務管理學系</item>
+    </string-array>
+    <string-array name="department">
+        <item>學務處</item>
+        <item>教務處</item>
+        <item>總務處</item>
+    </string-array>
+    <string-array name="management_building">
+        <item>一樓_一般教室(1F)</item>
+        <item>二樓_一般教室(2F)</item>
+        <item>三樓_電腦教室(3F)</item>
+        <item>五樓_電腦教室(B050C)</item>
+    </string-array>
+    <string-array name="engineer_building">
+        <item>一樓_一般教室(1F)</item>
+        <item>二樓_一般教室(2F)</item>
+        <item>三樓_一般教室(3F)</item>
+    </string-array>
+    <string-array name="medical_building">
+        <item>一樓_一般教室(1F)</item>
+        <item>二樓_一般教室(2F)</item>
+        <item>三樓_一般教室(3F)</item>
+        <item>三樓_語言教室(3F)</item>
+    </string-array>
+    <string-array name="second_medical_building">
+        <item>地下一樓(B1)</item>
+        <item>一樓_一般教室(1F)</item>
+        <item>二樓_一般教室(2F)</item>
+    </string-array>
+    <string-array name="meeting_room">
+        <item>工學大樓6F會議廳 1</item>
+        <item>工學大樓6F會議廳 2</item>
+        <item>第二醫學大樓B1會議廳 1</item>
+        <item>第二醫學大樓B1會議廳 2</item>
+        <item>第二醫學大樓B1會議廳 3</item>
+    </string-array>
+    <string-array name="B01xx">
+        <item>B0101</item>
+        <item>B0102</item>
+        <item>B0103</item>
+        <item>B0104</item>
+        <item>B0105</item>
+        <item>B0106</item>
+        <item>B0107</item>
+        <item>B0108</item>
+    </string-array>
+    <string-array name="B02xx">
+        <item>B0201</item>
+        <item>B0202</item>
+        <item>B0203</item>
+        <item>B0204</item>
+    </string-array>
+    <string-array name="B03xx">
+        <item>電腦1</item>
+        <item>電腦2</item>
+        <item>電腦3</item>
+        <item>電腦4</item>
+        <item>電腦5</item>
+        <item>電腦6</item>
+    </string-array>
+    <string-array name="E01xx">
+        <item>E0101</item>
+        <item>E0102</item>
+        <item>E0103</item>
+        <item>E0104</item>
+        <item>E0105</item>
+        <item>E0106</item>
+    </string-array>
+    <string-array name="E02xx">
+        <item>E0201</item>
+        <item>E0202</item>
+        <item>E0203</item>
+        <item>E0204</item>
+        <item>E0205</item>
+        <item>E0206</item>
+    </string-array>
+    <string-array name="E03xx">
+        <item>E0301</item>
+        <item>E0302</item>
+        <item>E0303</item>
+        <item>E0304</item>
+        <item>E0305</item>
+        <item>E0306</item>
+    </string-array>
+    <string-array name="M01xx">
+        <item>M0101</item>
+        <item>M0102</item>
+        <item>M0103</item>
+        <item>M0104</item>
+        <item>M0105</item>
+        <item>M0106</item>
+    </string-array>
+    <string-array name="M02xx">
+        <item>M0201</item>
+        <item>M0202</item>
+        <item>M0203</item>
+        <item>M0204</item>
+        <item>M0205</item>
+        <item>M0206</item>
+    </string-array>
+    <string-array name="M03xx">
+        <item>M0301</item>
+        <item>M0302</item>
+        <item>M0303</item>
+        <item>M0304</item>
+        <item>M0305</item>
+        <item>M0306</item>
+    </string-array>
+    <string-array name="LLx">
+        <item>LL1</item>
+        <item>LL2</item>
+        <item>LL3</item>
+        <item>LL4</item>
+    </string-array>
+    <string-array name="PBLx">
+        <item>PBL1</item>
+        <item>PBL2</item>
+        <item>PBL3</item>
+        <item>PBL4</item>
+        <item>PBL5</item>
+        <item>PBL6</item>
+        <item>PBL7</item>
+        <item>PBL8</item>
+        <item>PBL9</item>
+        <item>PBL10</item>
+        <item>PBL11</item>
+        <item>PBL12</item>
+        <item>PBL13</item>
+        <item>PBL14</item>
+        <item>PBL15</item>
+        <item>PBL16</item>
+        <item>PBL17</item>
+        <item>PBL18</item>
+        <item>PBL19</item>
+        <item>PBL20</item>
+    </string-array>
+    <string-array name="C01xx">
+        <item>C0101</item>
+        <item>C0102</item>
+        <item>C0103</item>
+        <item>C0104</item>
+        <item>C0105</item>
+        <item>C0106</item>
+    </string-array>
+    <string-array name="C02xx">
+        <item>C0201</item>
+        <item>C0202</item>
+        <item>C0203</item>
+        <item>C0204</item>
+        <item>C0205</item>
+        <item>C0206</item>
+    </string-array>
+
+    <color name="contents_text">#ff000000</color>
+    <color name="encode_view">#ffffffff</color>
+    <color name="help_button_view">#ffcccccc</color>
+    <color name="help_view">#ff404040</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="result_image_border">#ffffffff</color>
+    <color name="result_minor_text">#ffc0c0c0</color>
+    <color name="result_points">#c000ff00</color>
+    <color name="result_text">#ffffffff</color>
+    <color name="result_view">#b0000000</color>
+    <color name="sbc_header_text">#ff808080</color>
+    <color name="sbc_header_view">#ffffffff</color>
+    <color name="sbc_list_item">#fffff0e0</color>
+    <color name="sbc_layout_view">#ffffffff</color>
+    <color name="sbc_page_number_text">#ff000000</color>
+    <color name="sbc_snippet_text">#ff4b4b4b</color>
+    <color name="share_text">#ff000000</color>
+    <color name="share_view">#ffffffff</color>
+    <color name="status_view">#50000000</color>
+    <color name="status_text">#ffffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="viewfinder_frame">#ff000000</color>
+    <color name="viewfinder_laser">#ffff0000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="dark_gray">#969696</color>
+    <color name="black">#ff000000</color>
+    <color name="white">#ffffffff</color>
+
+</resources>
